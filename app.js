@@ -34,7 +34,6 @@ app.get("/campgrounds/new", function(request, response){
     response.render("new.ejs");
 })
 
-
 app.listen(3000, function(){
     console.log ('The YelpCamp Server has started...');
 });
